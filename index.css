@@ -1,1 +1,43 @@
-body {background-color: rgb(255, 163, 253);}
+.tabs {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 20px;
+	overflow: hidden;
+	position: fixed;
+	top: 0;
+	width: 100%;
+	background-color: rgb(212,220,255);
+}
+.tabs a{
+	float: left;
+	display: block;
+	color: rgb(116,148,234);
+	text-align: center;
+	padding: 5px 16px;
+	text-decoration: none;
+}
+
+.homepage {
+	float: left;
+	margin-left: 10px;
+	margin-top: 50px;
+}
+
+.images {
+	overflow-wrap: break-word;
+	width: 12%;
+
+	margin: 25px 10px;
+	border: 2px solid transparent;
+	border-image-source: url("images/windownodecor.png");
+	border-image-slice: 27 27 27 27 fill;
+	border-image-width: 20px 20px 20px 20px; 
+	border-image-outset: 10px 1px 1px 1px; 
+	border-image-repeat: stretch;
+}
+
+body {
+	margin:0px;
+	font-family: 'Montserrat', sans-serif;
+	font-style: 15px;
+	background-color: rgb(204, 219, 220);
+}
